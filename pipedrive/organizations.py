@@ -30,6 +30,6 @@ class Organizations(object):
         url = 'organizations/find'
         return self._client._get(self._client.BASE_URL + url, **kwargs)
 
-     def search_organization(self, params=None, **kwargs):
-         url = 'organizations/search'
-         return self._client._get(self._client.BASE_URL + url, params=params, **kwargs)
+    def search_organization(self, params=None, **kwargs):
+        url = 'organizations/search'
+        return self._client._get(self._client.BASE_URL + url, params=params, **kwargs)
